@@ -1,2 +1,2 @@
 print("python is working")
-print("setup is all completed by tomorrow" ) 
+print("setup is all completed " ) 
