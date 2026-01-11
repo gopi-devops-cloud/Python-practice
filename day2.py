@@ -1,61 +1,58 @@
 # # # subscripting also work on backward -1 still gives o
-# # print("hello"[4])
+print("hello"[4])
 
-# # # string inside string all treat same as like simpel text even number
-# # print ("123" + "345")
-
-
-# # # integer = whole number
-# # print (123+456)
+# string inside string all treat same as like simpel text even number
+print ("123" + "345")
 
 
-# # #large integers
-# # print(123_456_789)
+# integer = whole number
+print (123+456)
 
-# # # FLOAT=Floating point number
-# # print(3.14159)
 
-# # # Boolean
-# # print(True)
-# # print(False)
+# large integers
+print(123_456_789)
 
-# # #DATA TYPES FINDES
-# print (type("hellow"))
-# print (type(12345))
-# print(type(True))
-# print(type(3.148))
+#FLOAT=Floating point number
+print(3.14159)
 
-# # mathematical operation (+,-,*,/)
-# print(2**3)
-# print(5/3) #output=1.66666666667
-# print(5//3) #output=1
+# Boolean
+print(True)
+print(False)
 
-# #PEMDAS
-# # ()
-# # **
-# # * OR /
-# # + OR -
+# DATA TYPES FINDES
+print (type("hellow"))
+print (type(12345))
+print(type(True))
+print(type(3.148))
 
-# print(3*(3+3)/3-3)
+# mathematical operation (+,-,*,/)
+print(2**3)
+print(5/3) #output=1.66666666667
+print(5//3) #output=1
 
-# print(round(3.9))
+#PEMDAS
+# ()
+# **
+# * OR /
+# + OR -
 
-# bmi=84/1.65**2
-# print(round(bmi,2))
+print(3*(3+3)/3-3)
 
-# score=0
+# rounding a number
+print(round(3.9))
 
-# # user score a point
-# score += 1
-# print(score)
+bmi=84/1.65**2
+print(round(bmi,2))
 
-# # f-string
-# print("your score is " + str(score))
+score=0
+score += 1
+print(score)
+print("your score is " + str(score))
 
-# # f-strings
-# score=0
-# height=1.8
-# is_winning = True
+ # f-strings
+score=0
+height=1.8
+is_winning = True
 
-# print(f"your score is = {score}, your height is {height}, you are winning is {is_winning} ")
+print(f"your score is = {score}, your height is {height}, you are winning is {is_winning} ")
 print(6+4/2-(1*2))
