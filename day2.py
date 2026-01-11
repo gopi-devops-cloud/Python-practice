@@ -55,6 +55,9 @@ height=1.8
 is_winning = True
 
 print(f"your score is = {score}, your height is {height}, you are winning is {is_winning} ")
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 8e7f39a50d2724434647ce7d2267ed550483488f
