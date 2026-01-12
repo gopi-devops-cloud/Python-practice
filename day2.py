@@ -55,3 +55,13 @@ height=1.8
 is_winning = True
 
 print(f"your score is = {score}, your height is {height}, you are winning is {is_winning} ")
+
+#project day 2
+print("welcome to the tip calculator!" )
+bill=float(input("what was the total bill ? $ "))
+tip=int(input("how many tip whould you like to give? 10,12 or 15? "))
+split=int(input("how many people split the bill? "))
+total_bill=bill+(bill*tip/100)
+each_person= total_bill /split
+final_amount=round(each_person,2)
+print(f"each person should pay : ${final_amount} ")
