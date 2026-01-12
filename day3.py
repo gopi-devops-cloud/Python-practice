@@ -32,25 +32,19 @@ size=input("what size do you want? S, M or L: ")
 bill=0
 if size == "S":
  bill=15
- print("small size pizza is $15 ")
 elif size=="M":
  bill=20
- print("medium size pizza is $20 ")
 else:
  bill=25
- print("large size pizza is $25")
 pepperoni=input("do you want pepperoni for your pizza y for yes n for no ") 
 if pepperoni== "y":
     if size=="S":
      bill+=2
-     print("pepperoni for your size pizza is $2")
     else:
       bill+=3
-    print("pepperoni for your size pizza is $3")
 extra_cheese =input("do you want extra_cheese y for yes n for no ")
 if extra_cheese=="y":
  bill+=1
- print("for extra_cheese pay $1")
 print(f" your total bill is ${bill}")
 
 
