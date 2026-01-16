@@ -51,7 +51,7 @@ else:
   print("you typed invalid no")
 computer_choose=random.randint(0,2)
 if computer_choose==0:
-  print("computer choose rock")
+  print("computer choose rock")   
 elif computer_choose==1:
   print("computer choose paper")
 elif computer_choose==2:
