@@ -1,42 +1,42 @@
-# # import random
-# # random_integer = random.randint(1,10)
-# # print(random_integer)
-# # # 1 & 10 both included
+import random
+random_integer = random.randint(1,10)
+print(random_integer)
+# 1 & 10 both included
 
-# # #float number
-# # random_number_0_to_1= random.random()
-# # print(random_number_0_to_1) 
-# # # include o but not 1
+#float number
+random_number_0_to_1= random.random()
+print(random_number_0_to_1) 
+# include o but not 1
 
-# # random_float=random.uniform(1,10)
-# # print(random_float)
+random_float=random.uniform(1,10)
+print(random_float)
  
-# # random_integar=random.randint(1,2)
-# # if random_integar==1:
-# #  print("heads")
-# # else:
-# #  print("tails")
+random_integar=random.randint(1,2)
+if random_integar==1:
+ print("heads")
+else:
+ print("tails")
 
 
-# # fruits=(["cherry","apple","pear","orange"])
-# # fruits.append(["mango","orange"])
-# # fruits[0]="banana"
-# # print (fruits[0])
-# # print(fruits)
+fruits=(["cherry","apple","pear","orange"])
+fruits.append(["mango","orange"])
+fruits[0]="banana"
+print (fruits[0])
+print(fruits)
 
-# # challange 
-# friends=("alice","bob","charlie","david","emanuel")
-# import random
-# random_int=random.randint(0,4)
-# print (friends[random_int])
+# challange 
+friends=("alice","bob","charlie","david","emanuel")
+import random
+random_int=random.randint(0,4)
+print (friends[random_int])
 
 
 
-# #combined
-# fruits=["apple","mango","banana","pineapple","peach"]
-# vegetables=["tomato","potato","onion",]
-# fruits_vegetables=[fruits,vegetables]
-# print(fruits_vegetables)
+#combined
+fruits=["apple","mango","banana","pineapple","peach"]
+vegetables=["tomato","potato","onion",]
+fruits_vegetables=[fruits,vegetables]
+print(fruits_vegetables)
 
 # day 4 projects
 import random
