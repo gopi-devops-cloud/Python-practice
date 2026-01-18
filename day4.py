@@ -8,7 +8,7 @@ random_number_0_to_1= random.random()
 print(random_number_0_to_1) 
 # include o but not 1
 
-random_float=random.uniform(1,10)
+random_float=random.uniform(1,10) 
 print(random_float)
  
 random_integar=random.randint(1,2)
