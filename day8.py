@@ -1,22 +1,22 @@
-# def greet():
-#     print("hello gopi")
-#     print("you got it")
-# greet()
+def greet():
+    print("hello gopi")
+    print("you got it")
+greet()
 
 # function that allows input
-# def greet_with_name(name):
-#     print(f"hello {name}")
-#     print(f"what are you doing  {name}")
-# greet_with_name("gopi")
+def greet_with_name(name):
+    print(f"hello {name}")
+    print(f"what are you doing  {name}")
+greet_with_name("gopi")
 
 #function with more then one input
-# def greet_with(name,location):
-#     print(f"hello {name}")
-#     print(f"i live in {location}")
-# greet_with("gopi","babugarh")
+def greet_with(name,location):
+    print(f"hello {name}")
+    print(f"i live in {location}")
+greet_with("gopi","babugarh")
 
-# # keyword argument
-# greet_with(name="gopi",location="babugarh" )
+ # keyword argument
+greet_with(name="gopi",location="babugarh" )
 
 alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m',
             'n','o','p','q','r','s','t','u','v','w','x','y','z']
